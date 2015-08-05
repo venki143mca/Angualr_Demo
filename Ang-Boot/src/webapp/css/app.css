@@ -1,0 +1,57 @@
+/*Application specific CSS rules*/
+.col-md-4 {
+    width: 50%;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 150px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 150px;
+}
+
+/*Bar grapth css rules*/
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis path{
+  fill: none;
+  stroke: none;
+}
+.bar {
+  fill: steelblue;
+ }
+ 
+ /*Sticky footer*/
+.footer{
+	position:relative;
+	bottom:0;
+}
+
+/*common chart*/
+.ac-tooltip {
+	color: black;
+	border: 2px solid rgba(200, 200, 0, 0.8);
+	background-color: rgba(200, 200, 0, 0.5);
+}
+#chart2 {
+  height: 400px;
+  width: 400px;
+  margin-left: 30%;
+}
